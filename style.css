@@ -87,7 +87,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .navbar.sticky{
-    padding: 15px 0;
+    padding: 10px 0;
     background: crimson;
 }
 .navbar .max-width{
@@ -104,8 +104,16 @@ section .title::after{
     color: crimson;
     transition: all 0.3s ease;
 }
+ #port{
+    color:mediumvioletred;
+    transition: all 0.3s ease;
+}
 .navbar.sticky .logo a span{
     color: #fff;
+}
+.navbar.sticky #port{
+    color: #fff;
+
 }
 .navbar .menu li{
     list-style: none;
@@ -123,7 +131,7 @@ section .title::after{
     color: crimson;
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: rgba(233, 229, 225, 0.856);
 }
 
 /* menu btn styling */
